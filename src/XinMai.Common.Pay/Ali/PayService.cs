@@ -30,9 +30,8 @@ namespace XinMai.Common.Pay.Ali
             Factory.SetOptions(result);
         }
         #endregion
-        #region Payment
 
-
+        #region Payment 
         /// <summary>
         /// 统一收单交易创建 
         /// </summary>
