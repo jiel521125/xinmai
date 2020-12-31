@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace XinMai.Common.Oss.Ali
 {
-    public interface IAliOssService
+    public interface IAliOssService 
     {
         AliOssToken Token(EnumFileType fileType);
         PutObjectResult PutObject(EnumFileType fileType, string file);
