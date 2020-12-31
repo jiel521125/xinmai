@@ -5,7 +5,17 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinMai.Common.Core", "src\XinMai.Common.Core\XinMai.Common.Core.csproj", "{FFDA7FFA-68C1-45EF-BEB3-7B7AA3F6D981}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinMai.Common.Oss", "src\XinMai.Common.Oss\XinMai.Common.Oss.csproj", "{FE7A341D-811A-455D-9B77-40669522D563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinMai.Common.Oss", "src\XinMai.Common.Oss\XinMai.Common.Oss.csproj", "{FE7A341D-811A-455D-9B77-40669522D563}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XinMai", "XinMai", "{48E5AF00-CE78-4295-8483-2F68EA183E12}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		DockerFile.txt = DockerFile.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinMai.Common.Pay", "src\XinMai.Common.Pay\XinMai.Common.Pay.csproj", "{83CC556E-2BEA-4AFA-8AD1-9A8485E2C16C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,10 @@ Global
 		{FE7A341D-811A-455D-9B77-40669522D563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE7A341D-811A-455D-9B77-40669522D563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE7A341D-811A-455D-9B77-40669522D563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CC556E-2BEA-4AFA-8AD1-9A8485E2C16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CC556E-2BEA-4AFA-8AD1-9A8485E2C16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CC556E-2BEA-4AFA-8AD1-9A8485E2C16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CC556E-2BEA-4AFA-8AD1-9A8485E2C16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
