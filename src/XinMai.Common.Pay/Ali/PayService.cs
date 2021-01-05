@@ -9,7 +9,7 @@ namespace XinMai.Common.Pay.Ali
     /// <summary>
     /// 支付宝接口扩展
     /// </summary> 
-    public class PayService : IPayService
+    public class PayService : IPayService 
     {
         private readonly ILogger<PayService> _logger;
         private readonly IMapper _mapper;
