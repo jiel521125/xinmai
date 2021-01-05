@@ -3,7 +3,6 @@ using AutoMapper;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace XinMai.Common.Pay.Ali
 {
